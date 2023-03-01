@@ -33,7 +33,7 @@ function onInputCountry() {
             }
 
             if (countries.length === 1) {
-                const markup = countries.map(country => countryСardTemplate(country));
+                const markup = countries.map(country => countryCardTemplate(country));
                 refs.countryInfo.innerHTML = markup.join('');
                 refs.countryList.innerHTML = '';
             }
